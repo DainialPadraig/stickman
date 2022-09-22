@@ -1,0 +1,18 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="@.*+uq-Hb1?s;8aw_P`F">mySprite</variable><variable type="KIND_SpriteKind" id="c(HAZc[cAcX.n-DU;0}/">Player</variable><variable type="KIND_SpriteKind" id="a#Ddb8f`g6fLc)P{9!o_">Projectile</variable><variable type="KIND_SpriteKind" id="fbw{Op#GPseDe.1?:ADx">Food</variable><variable type="KIND_SpriteKind" id="z_/S~[A;j2a-lPv:[T};">Enemy</variable></variables><block type="pxt-on-start" id="LTJvIOO1]%[qvoz}0-Z^" x="0" y="0"><statement name="HANDLER"><block type="variables_set" id="FN!r)C2jB;jqC1ES|Vvm"><field name="VAR" id="@.*+uq-Hb1?s;8aw_P`F">mySprite</field><value name="VALUE"><shadow xmlns="http://www.w3.org/1999/xhtml" type="math_number"><field name="NUM">0</field></shadow><block type="spritescreate" id="]4pD]glv:KQWn),M:XN["><value name="img"><shadow type="screen_image_picker" id="yAf;X20OFzab{bhQ:{*{"><field name="img">img`
+. . . . . . . . 
+. . . 5 5 5 . . 
+. . . 7 7 5 . . 
+. . . 7 7 5 5 5 
+. a . 8 8 . . . 
+. . a 8 8 a . . 
+. . . 8 8 . a . 
+. . . 8 8 . . . 
+. a a a a . . . 
+. a . . a . . . 
+a a . . a a a . 
+. . . . . . . . 
+. . . . . . . . 
+. . . . . . . . 
+. . . . . . . . 
+. . . . . . . . 
+`</field><data>{"commentRefs":[],"fieldData":{"img":"yAf;X20OFzab{bhQ:{*{"}}</data></shadow></value><value name="kind"><shadow type="spritekind" id="hJL+E~8iBIk4NUGG9p_Q"><field name="MEMBER">Player</field></shadow></value></block></value><next><block type="game_control_sprite" id="0nW/%*VSk;+K{8%HV~L+"><mutation xmlns="http://www.w3.org/1999/xhtml" _expanded="0" _input_init="true"></mutation><value name="sprite"><block type="variables_get" id="#B-J{UnHp~b56)9y)BcT"><field name="VAR" id="@.*+uq-Hb1?s;8aw_P`F">mySprite</field></block></value><value name="vx"><shadow type="spriteSpeedPicker" id="]GArKM~/6I#aUu:Fuoxh"><field name="speed">100</field></shadow></value><value name="vy"><shadow type="spriteSpeedPicker" id="H?(b_wL]f$LeYHgY=fUt"><field name="speed">100</field></shadow></value></block></next></block></statement></block></xml>
